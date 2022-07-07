@@ -1,0 +1,122 @@
+/* home code */
+
+body { 
+    background-color: rgba(195,197,196,255); 
+} 
+#homeheading1 {
+    color: crimson;
+    text-align: center;
+    font-size: 50px
+}
+
+#homeimage {
+    display:flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:596px;
+    height:338px;
+}
+
+/* #double{
+    width:596px;
+    height:338px;
+} */
+#nav { 
+    display:flex;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    align-items:flex-end;
+    background-color:black;
+    height:50px;
+    border-style: inset;
+    border-color: cyan;
+    border-width: 10px;
+    padding: 5px;
+}
+
+#nav a {
+    /* display:flex;
+    justify-content: space-around; */
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+#nav a:hover {
+    color:blue
+}
+
+.homepara {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 75%;
+    padding-left: 12.5%;
+}
+#list {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    /* text-align: center; */
+    width: 75%;
+    padding-left: 12.5%;
+}
+#homeheading3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: crimson;
+    text-align: left;
+    padding-left: 12.5%;
+
+}
+/* ---------------features code--------------- */
+
+.featurepara {
+    font-size: 16px;
+}
+.featuresbody {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    padding: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+}
+
+.column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+}
+
+.large {
+    color: crimson;
+    font-size: 50px
+}
+
+.image (
+    display: block;
+    height: auto;
+    max-width: 100%;
+)
+/* ---------------Dinosaurs code--------------- */
+
+#dinosaurheading1 {
+    color: crimson;
+    text-align: center;
+    font-size: 50px
+}
+
