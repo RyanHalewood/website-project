@@ -1,7 +1,9 @@
-/* home code */
+/* ---------------home code--------------- */
 
 body { 
-    background-color: rgba(195,197,196,255); 
+    background-color: rgba(195,197,196,255);
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
 } 
 #homeheading1 {
     color: crimson;
@@ -71,32 +73,35 @@ body {
 
 }
 /* ---------------features code--------------- */
-
+.box{
+    box-sizing:border-box;
+}
 .featurepara {
     font-size: 16px;
 }
-.featuresbody {
-    margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
+
 
 .container {
-    padding: 30px;
+    Display:flex;
+    padding: 64px;
 }
 
 .row:after {
+    display:flex;
     content: "";
     display: table;
     clear: both
 }
 
 .column-66 {
+    display:flex;
     float: left;
     width: 66.66666%;
     padding: 20px;
 }
 
 .column-33 {
+    display:flex;
     float: left;
     width: 33.33333%;
     padding: 20px;
@@ -104,19 +109,35 @@ body {
 
 .large {
     color: crimson;
-    font-size: 50px
+    font-size: 36px
 }
 
-.image (
-    display: block;
+.featuresimage {
+    display:block;
     height: auto;
     max-width: 100%;
-)
+}
+
 /* ---------------Dinosaurs code--------------- */
+
 
 #dinosaurheading1 {
     color: crimson;
     text-align: center;
     font-size: 50px
 }
+#dinoimage {
+    display:flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#dinopara {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#table {
+    width: 100%;
+}
