@@ -73,6 +73,15 @@ body {
 
 }
 /* ---------------features code--------------- */
+
+
+.page2heading {
+    display:flex;
+    justify-content:center;
+    color: crimson;
+    font-size: 36px
+}
+
 .box{
     box-sizing:border-box;
 }
